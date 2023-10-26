@@ -4,20 +4,21 @@ Extremely simple HtmlToBase64
 
 ## Usage
 
-    const htmlToBase64 = require("htmltobase64")
-    let width = 1280;
-    let height = 1080;
-    
-    let replacements = {
-			user: "dwiftejb"
-	} // replace anything that has {{key}} to value
-	
-    let selector = "body"; // selects the element to screenshot and save as base64, leave empty to screenshot whole page.
+```js
+const htmlToBase64 = require("htmltobase64")
+let width = 1280;
+let height = 1080;
 
-    async function main() {
-		const base64 = await htmlToBase64("<h1>hello {{user}}</h1>", width, height, replacements, selector);
-		console.log(base64);
-	}
+let replacements = {
+        user: "dwiftejb"
+} // replace anything that has {{key}} to value
 
-    main();
+let selector = "body"; // selects the element to screenshot and save as base64, leave empty to screenshot whole page.
 
+async function main() {
+    const base64 = await htmlToBase64("<h1>hello {{user}}</h1>", width, height, replacements, selector);
+    console.log(base64);
+}
+
+main();
+```
