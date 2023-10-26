@@ -1,6 +1,6 @@
 {
   "name": "htmltobase64",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "turns an html webpage into a base64 encoded image",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,10 @@
   "keywords": [
     "html",
     "base64",
-    "puppeteer"
+    "puppeteer",
+    "html-to-base64",
+    "html-to-image",
+    "htmltoimage"
   ],
   "author": "DwifteJB",
   "license": "ISC",

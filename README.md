@@ -1,6 +1,6 @@
 # HtmlToBase64
 
-Extremely simple HtmlToBase64
+Extremely simple tool to convert a HTML document to a base64 image
 
 ## Usage
 
