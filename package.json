@@ -1,6 +1,6 @@
 {
   "name": "htmltobase64",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turns an html webpage into a base64 encoded image",
   "main": "index.js",
   "scripts": {
